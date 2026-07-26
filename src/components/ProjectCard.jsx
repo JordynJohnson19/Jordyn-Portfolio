@@ -1,4 +1,11 @@
-function ProjectCard({ title, description, technologies, status }) {
+function ProjectCard({
+  title,
+  description,
+  technologies,
+  status,
+  githubUrl,
+  projectUrl,
+}) {
   return (
     <article className="project-card">
       <p className="project-status">{status}</p>
@@ -16,13 +23,17 @@ function ProjectCard({ title, description, technologies, status }) {
       </div>
 
       <div className="project-links">
-        <a href="#" aria-label={`View ${title} details`}>
-          View Project
-        </a>
+        {projectUrl && (
+          <a href={projectUrl} target="_blank" rel="noreferrer">
+            View Project
+          </a>
+        )}
 
-        <a href="#" aria-label={`View ${title} source code`}>
-          GitHub
-        </a>
+        {githubUrl && (
+          <a href={githubUrl} target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+        )}
       </div>
     </article>
   );

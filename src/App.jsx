@@ -65,6 +65,8 @@ function App() {
       status={project.status}
       description={project.description}
       technologies={project.technologies}
+      githubUrl={project.githubUrl}
+      projectUrl={project.projectUrl}
     />
   ))}
 
