@@ -37,16 +37,56 @@ function App() {
           </div>
         </section>
 
-        <section id="about" className="section">
-          <h2>About Me</h2>
+        <section id="about" className="section about-section">
+  <div className="about-content">
+    <div className="about-text">
+      <p className="section-label">About Me</p>
 
-          <p>
-            I am an AI-focused Computer Science student with experience in
-            machine learning, computer vision, robotics, automation, and data
-            processing.
-          </p>
-        </section>
+      <h2>Computer Science Student Focused on Artificial Intelligence</h2>
 
+      <p>
+        I am a senior Computer Science student at Alabama A&M University with
+        experience in artificial intelligence, machine learning, computer
+        vision, cybersecurity, and software development.
+      </p>
+
+      <p>
+        My work includes building computer vision applications, evaluating
+        vision-language models, developing financial language-model projects,
+        and improving identity and access management workflows during my
+        cybersecurity internship.
+      </p>
+
+      <p>
+        I am currently preparing for an entry-level AI, machine learning, or
+        software engineering role where I can apply my technical skills to
+        real-world problems.
+      </p>
+    </div>
+
+    <div className="about-details">
+      <div className="about-detail">
+        <span>Education</span>
+        <strong>B.S. Computer Science</strong>
+      </div>
+
+      <div className="about-detail">
+        <span>University</span>
+        <strong>Alabama A&M University</strong>
+      </div>
+
+      <div className="about-detail">
+        <span>Focus</span>
+        <strong>Artificial Intelligence and Machine Learning</strong>
+      </div>
+
+      <div className="about-detail">
+        <span>Career Goal</span>
+        <strong>AI/ML or Software Engineering</strong>
+      </div>
+    </div>
+  </div>
+</section>
         <section id="projects" className="section">
   <p className="section-label">Featured Work</p>
   <h2>Projects</h2>
