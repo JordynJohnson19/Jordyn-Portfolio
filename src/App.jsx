@@ -87,6 +87,9 @@ function App() {
     </div>
   </div>
 </section>
+
+
+
         <section id="projects" className="section">
   <p className="section-label">Featured Work</p>
   <h2>Projects</h2>
@@ -112,20 +115,71 @@ function App() {
 
 </div>
 </section>
-        <section id="skills" className="section">
-          <h2>Skills</h2>
+        <section id="skills" className="section skills-section">
+  <p className="section-label">Technical Skills</p>
 
-          <p>
-            Python, C++, JavaScript, SQL, PyTorch, Pandas, OpenCV, MediaPipe,
-            React, and Git.
-          </p>
-        </section>
+  <h2>Tools and Technologies</h2>
 
-        <section id="contact" className="section">
-          <h2>Contact</h2>
+  <p className="section-description">
+    Technologies I have used through coursework, internships, research, and
+    personal projects.
+  </p>
 
-          <p>Email: JordynJohnson80@gmail.com</p>
-        </section>
+  <div className="skills-grid">
+    <div className="skill-category">
+      <h3>Artificial Intelligence</h3>
+
+      <div className="skill-list">
+        <span>Machine Learning</span>
+        <span>Computer Vision</span>
+        <span>Large Language Models</span>
+        <span>Vision-Language Models</span>
+        <span>Model Evaluation</span>
+        <span>Data Preprocessing</span>
+      </div>
+    </div>
+
+    <div className="skill-category">
+      <h3>Programming</h3>
+
+      <div className="skill-list">
+        <span>Python</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>C++</span>
+        <span>SQL</span>
+      </div>
+    </div>
+
+    <div className="skill-category">
+      <h3>AI and Data Tools</h3>
+
+      <div className="skill-list">
+        <span>Pandas</span>
+        <span>NumPy</span>
+        <span>OpenCV</span>
+        <span>MediaPipe</span>
+        <span>Scikit-learn</span>
+        <span>Gemini API</span>
+      </div>
+    </div>
+
+    <div className="skill-category">
+      <h3>Cloud and Development</h3>
+
+      <div className="skill-list">
+        <span>AWS</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>VS Code</span>
+        <span>Vite</span>
+        <span>Linux</span>
+      </div>
+    </div>
+  </div>
+</section>
       </main>
     </>
   );
