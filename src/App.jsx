@@ -180,6 +180,127 @@ function App() {
     </div>
   </div>
 </section>
+
+<section id="experience" className="section experience-section">
+  <p className="section-label">Professional Experience</p>
+
+  <h2>Experience</h2>
+
+  <p className="section-description">
+    Experience applying computer science, artificial intelligence, and
+    cybersecurity skills in professional and research environments.
+  </p>
+
+  <div className="experience-list">
+    <article className="experience-card">
+      <div className="experience-header">
+        <div>
+          <h3>Cybersecurity IAM Intern</h3>
+          <p className="experience-company">BCD Travel</p>
+        </div>
+
+        <span className="experience-date">Internship</span>
+      </div>
+
+      <ul>
+        <li>
+          Automated Excel-based identity and access management workflows.
+        </li>
+        <li>
+          Helped reduce the quarterly access-review process from approximately
+          one month to two weeks.
+        </li>
+        <li>
+          Investigated unidentified accounts and helped map them to the correct
+          users and systems.
+        </li>
+        <li>
+          Supported connector integrations and identity-governance processes.
+        </li>
+      </ul>
+
+      <div className="experience-skills">
+        <span>Identity and Access Management</span>
+        <span>Excel Automation</span>
+        <span>Cybersecurity</span>
+        <span>Data Analysis</span>
+      </div>
+    </article>
+
+    <article className="experience-card">
+      <div className="experience-header">
+        <div>
+          <h3>AI Research Intern</h3>
+          <p className="experience-company">
+            Vision-Language Model Safety Research
+          </p>
+        </div>
+
+        <span className="experience-date">Summer Research</span>
+      </div>
+
+      <ul>
+        <li>
+          Evaluated vision-language model responses across more than 1,400
+          image comparisons.
+        </li>
+        <li>
+          Built Python workflows for processing JSON and CSV evaluation data.
+        </li>
+        <li>
+          Analyzed model accuracy, refusals, malformed responses, and safety
+          classifications.
+        </li>
+        <li>
+          Created research visualizations, documentation, and a final poster.
+        </li>
+      </ul>
+
+      <div className="experience-skills">
+        <span>Python</span>
+        <span>Multimodal AI</span>
+        <span>Model Evaluation</span>
+        <span>Data Visualization</span>
+      </div>
+    </article>
+
+    <article className="experience-card">
+      <div className="experience-header">
+        <div>
+          <h3>Computer Science Project Developer</h3>
+          <p className="experience-company">Academic and Personal Projects</p>
+        </div>
+
+        <span className="experience-date">School Research</span>
+      </div>
+
+      <ul>
+        <li>
+          Developed computer vision, language-model, robotics, and web
+          applications.
+        </li>
+        <li>
+          Worked with Python, React, OpenCV, MediaPipe, machine learning tools,
+          and APIs.
+        </li>
+        <li>
+          Used Git and GitHub to manage source code and project history.
+        </li>
+        <li>
+          Documented project architecture, results, challenges, and future
+          improvements.
+        </li>
+      </ul>
+
+      <div className="experience-skills">
+        <span>Software Development</span>
+        <span>Machine Learning</span>
+        <span>React</span>
+        <span>GitHub</span>
+      </div>
+    </article>
+  </div>
+</section>
       </main>
     </>
   );
